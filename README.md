@@ -14,4 +14,4 @@ If the write pointer goes ahead in the circular memory and reaches just below th
 
 * **Overflow** occurs if the FIFO is full and data is still being written, while **underflow** occurs if the FIFO is empty and data is still being read from it.
 
-The code in this repository results in a 16-stage FIFO and displays its four status flags.
+The code in this repository emulates a 16-stage circular memory FIFO and displays its four status flags.
