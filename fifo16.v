@@ -40,8 +40,8 @@ module fifo (write, read, clk, rst, in_data, out_data, full_flag, empty_flag, ov
 	//always block for status of empty and full flags
 	always @ (*)
 	begin
-		full_flag <= (wr_ptr == rd_ptr - 1)?1:0;			//if write pointer traverses the fifo to reach below the read 											//pointer, the fifo is full
-		empty_flag <= (wr_ptr == rd_ptr)?1:0;				//if read pointer catches up to the write pointer, the fifo is 											//empty
+		full_flag <= (wr_ptr == rd_ptr - 1)?1:0;			//if write pointer traverses the fifo to reach below the read pointer, the fifo is full
+		empty_flag <= (wr_ptr == rd_ptr)?1:0;				//if read pointer catches up to the write pointer, the fifo is empty
 	end
 
 	//always block for status of overflow and underflow flags
