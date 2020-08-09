@@ -1,7 +1,7 @@
 # 16-stage-fifo
 Verilog code for 16-stage FIFO memory
 
-Project blog - https://bit.ly/fifo_blog
+Project blog - https://bit.ly/FIFO_blog
 
 * FIFO (first in, first out) memory often serves as an intermediate storage in the exchange of data between two systems. 
 
