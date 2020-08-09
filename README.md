@@ -1,6 +1,8 @@
 # 16-stage-fifo
 Verilog code for 16-stage FIFO memory
 
+Project blog - https://bit.ly/fifo_16
+
 * FIFO (first in, first out) memory often serves as an intermediate storage in the exchange of data between two systems. 
 
 * The first generation FIFOs were called 'fall-through FIFOs' because their architecture caused all the data words to shift, i.e fall through all the memory locations. This resulted in a delay or fall-through time. To overcome this, a new architecture is now used, which does not require data to travel through all the memory locations. This *static memory architecture* is implemented using a **circular memory** and two (read and write) **pointers**.
